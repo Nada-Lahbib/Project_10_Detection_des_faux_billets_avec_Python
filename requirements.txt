@@ -1,0 +1,18 @@
+# data
+pandas
+scikit-learn
+
+# visualisation
+seaborn
+plotly
+
+# code quality
+black
+
+# dev
+jupyterlab
+jupyter
+notebook
+
+# front
+streamlit
