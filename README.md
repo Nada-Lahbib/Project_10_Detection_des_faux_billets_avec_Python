@@ -5,7 +5,8 @@
 
 
 
-## About 
+## About
+Dans ce projet intitulé "Détection des faux billets avec Python", nous avons été sollicités en tant que consultants en analyse de données par l'Organisation nationale de lutte contre le faux-monnayage (ONCFM). Notre objectif principal était de développer un modèle de détection des faux billets, en utilisant des techniques d'analyse de données avancées. Nous avons eu l'opportunité de travailler en étroite collaboration avec Marie, la responsable du projet au sein de l'ONCFM, en bénéficiant d'une grande autonomie dans notre approche. Notre mission comprenait l'exploration approfondie des données fournies, la mise en place de diverses méthodes d'analyse et de modélisation, ainsi que la présentation des résultats obtenus à la fin de la mission. Ce projet représente un exemple concret de l'application de techniques d'analyse de données pour résoudre des problèmes réels et contribuer à des initiatives importantes telles que la lutte contre la contrefaçon des billets en euros. Dans ce fichier README, nous présentons un aperçu général du projet, ainsi que des instructions pour son exécution et son utilisation.
 
 ## Install
 
