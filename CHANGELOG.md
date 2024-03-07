@@ -1,6 +1,11 @@
 # Changelog
 
 
+## 2024-03-07 - Mentorship Session
+
+## Updated
+- Update README.md with install and pip isntructions
+
 ## 2024-02-26 - Mentorship Session
 
 ### Added
