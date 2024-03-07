@@ -1,10 +1,12 @@
 # data
 pandas
+statsmodels
 scikit-learn
 
 # visualisation
 seaborn
 plotly
+missingno
 
 # code quality
 black
