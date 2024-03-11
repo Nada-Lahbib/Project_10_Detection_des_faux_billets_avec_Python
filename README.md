@@ -15,7 +15,13 @@ Voici le cahier des charges de l’ONCFM, ainsi que le jeu de données.
 Le client souhaite que vous travailliez directement depuis ses locaux sous la responsabilité de Marie, responsable du projet d’analyse de données à l’ONCFM. Elle vous laissera une grande autonomie pendant votre mission, et vous demande simplement que vous lui présentiez vos résultats une fois la mission terminée. Elle souhaite voir quels sont les traitements et analyses que vous avez réalisés en amont, les différentes pistes explorées pour la construction de l’algorithme, ainsi que le modèle final retenu.
 
 Après avoir lu en détail le cahier des charges, vous vous préparez à vous rendre à l’ONCFM pour prendre vos nouvelles fonctions. Vous notez tout de même un post-it qui se trouve sur le coin de votre bureau, laissé par un de vos collègues :
+
+
+
 <img width="211" alt="image" src="https://github.com/Nada-Lahbib/Project_10_Detection_des_faux_billets_avec_Python/assets/122825516/9c3fa83a-ca0b-456a-84ed-54031aea05b9">
+
+
+
 
 Vous embarquez le post-it dans vos affaires et vous dirigez donc à présent vers les bureaux de l’ONCFM pour commencer votre mission.
 
