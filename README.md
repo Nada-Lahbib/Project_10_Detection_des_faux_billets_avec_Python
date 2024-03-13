@@ -38,26 +38,34 @@ if not you can install them using the following commands:
 sudo apt-get install python3-pip
 sudo apt-get install python3-venv
 ```
+```cmd
+python -m pip install --upgrade pip
+```
 
 create a virtual environment : 
-
 ```bash
 python3 -m venv .venv
+```
+```cmd
+python -m venv .venv
 ```
 then activate it:
 ```bash
 source .venv/bin/activate
 ```
+```cmd
+.venv\Scripts\activate.bat
+```
 
 then install the requirements:
 
-```bash
+```bash / cmd
 pip install -r requirements.txt
 ```
 
 make sure the dependencies are installed by running the following command:
 
-```bash
+```bash / cmd
 pip freeze
 ```
 
