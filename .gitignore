@@ -1,2 +1,5 @@
 .venv/
 pw.txt
+
+*pyc
+__pycache__/
