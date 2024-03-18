@@ -1,13 +1,27 @@
 # Changelog
 
 
+## 2024-03-14 - Mentorship Session
+
+
+### Updated
+- Light update of readme img and reqs and notebook
+- deep breiffing on stats concepts
+
+### Todo
+- User margin low and length ? => use OLS coefs retrain other LR with 2 variables ? 
+- Same pater with stats models for Logistic regression ?
+- try using streamlit to create a web app to predict if a banknote is genuine or fake
+
+
+
 ## 2024-03-07 - Mentorship Session
 
-## Updated
+### Updated
 - Update README.md with install and pip isntructions
 - Minor update on the notebook
 
-## Todo
+### Todo
 - work, learn and compute confusion matrix, recall, precison, f1 score
 - transform is_geniune into is_fake (revserse 0 and 1)
 - 2e after linear regression => tests 

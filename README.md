@@ -1,6 +1,6 @@
 # Project 10: Détection des faux billets avec Python
 
-<img width="500" alt="Screenshot 2024-03-06 133818" src="https://github.com/Nada-Lahbib/Project-10/assets/122825516/a770e72d-8865-4fa2-93a4-b3cee9c1738b">
+<img width="100%" alt="Screenshot 2024-03-06 133818" src="https://github.com/Nada-Lahbib/Project-10/assets/img.png">
 
 
 
@@ -46,9 +46,7 @@ create a virtual environment :
 ```bash
 python3 -m venv .venv
 ```
-```cmd
-python -m venv .venv
-```
+
 then activate it:
 ```bash
 source .venv/bin/activate
