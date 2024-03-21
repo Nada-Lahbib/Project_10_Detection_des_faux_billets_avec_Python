@@ -11,8 +11,8 @@
 - Implement main.py such as when i call python3 main.py my_file.csv i have a new file created preds.csv with the predicted values.
 - Start looking after the job market :) => give 10 jobs opportunities 
 #### Nice to have
-- try using streamlit to create a web app to predict if a banknote is genuine or fake.
-- implement test driven developpement.
+- Try using streamlit to create a web app to predict if a banknote is genuine or fake.
+- Implement test driven developpement.
 
 
 ## 2024-03-14 - Mentorship Session
