@@ -1,58 +1,31 @@
-import sys, os
+import joblib  # Pour les anciennes versions de scikit-learn
+import pandas as pd
+import sys
+import os
 
+from functions import preprocess_and_predict
 
-def check_agrs(out):
-    """Manage case no file provided if no file give , please crash programm voluntary
-    printing a special info message for the user
-    """
+def main(input_file):
+    # Charger le fichier CSV
+    input_folder = "data/source/"
+    output_folder = "data/output/"
+    df_test = pd.read_csv(os.path.join(input_folder, input_file), sep=',')
 
-    if len(out) < 2:
-        raise AttributeError(
-            "\n\n::::::\nYou should pass the name of the file while calling the program\n::::::\n\n"
-        )
+    # Appliquer la fonction preprocess_and_predict
+    predictions = preprocess_and_predict(df_test)
 
+    # Créer la colonne des prédictions
+    df_test['Predictions'] = predictions
 
-def check_file(fn):
-    """if the file does exist crash volntary the program ..."""
-
-    if not os.path.isfile(fn):
-        raise AttributeError("\n\n::::::\nThis file do not exists\n::::::\n\n")
-
-
-def main():
-    """main function of the program"""
-
-    # gather calling parametres of the progamm call
-    out = sys.argv
-
-    # check_agrs
-    check_agrs(out)
-
-    # Extract the file
-    my_file = out[1]
-
-    # check_file
-    check_file(my_file)
-
-    print(f"{my_file} is a valid file ")
-
-    ############################################
-    # PERFORM COMPUTATION
-
-    # ADD SOME CODE HERE
-    ############################################
-
-    ############################################
-    # SAVE THE PREDICTIONS !
-
-    # ADD SOME CODE HERE
-    ############################################
-
-    print("WE DONE BRO! ")
-
+    # Enregistrer les prédictions dans un nouveau fichier CSV
+    df_test.to_csv(os.path.join(output_folder, input_file), index=False)
+    print("Predictions saved")
 
 if __name__ == "__main__":
-    # whats """if __name__ == "__main__":""" stands for :
-    # if i write python3 main.py
-    # Execute this code
-    main()
+    # Vérifier si un fichier CSV est fourni en argument
+    if len(sys.argv) != 2:
+        print("Usage: python main.py input_file.csv")
+        sys.exit(1)
+    else:
+        input_file = sys.argv[1]
+        main(input_file)
