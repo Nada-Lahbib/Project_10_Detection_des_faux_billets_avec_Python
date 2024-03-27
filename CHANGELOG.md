@@ -12,11 +12,14 @@
 
 
 ### Todo 
+- cleaner ton code ton projet ton projet 
 - Faire PPT
 - Envoyer au moins 20 CV
 - Trouver => TINCRUSTER sur au moins 1 projet data forGood / jeveuxaider 
 - Prépa ta soutenance
 - Lancer ta veille (on parlera semaine pro) ==> feedly ;) 
+- DEMANDE de recommandation sur linkedin a Alexandre GAzagnes
+- Soigne à mort ton cv ton linkedin ton github 
 
 
 
