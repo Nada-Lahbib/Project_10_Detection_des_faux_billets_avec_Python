@@ -19,11 +19,12 @@ from src.functions import preprocess_and_predict
 
 
 def main(input_file):
-    """Add a docstring  : https://www.datacamp.com/tutorial/docstrings-python"""
+    """Add a docstring  ;)"""
 
     # Charger le fichier CSV ==> EN ANGLAIS
     input_folder = "data/source/"
     output_folder = "data/output/"
+
     df_test = pd.read_csv(os.path.join(input_folder, input_file), sep=",")
 
     # Appliquer la fonction preprocess_and_predict CSV ==> EN ANGLAIS
