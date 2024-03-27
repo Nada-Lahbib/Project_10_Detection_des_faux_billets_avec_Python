@@ -1,5 +1,27 @@
 # Changelog
 
+## 2024-03-27 - Mentorship Session
+
+### Updated
+- add comments main py
+- create src/
+- models/
+- run isort () and black => format code  ==> QA (static code QUALITY ANALYSIS)
+- Add string header to files 
+- !!! Dans les commits =>  essayerr de faire 1 commit par file pas tous les modids en un seul commit" 
+
+
+### Todo 
+- cleaner ton code ton projet ton projet 
+- Faire PPT
+- Envoyer au moins 20 CV
+- Trouver => TINCRUSTER sur au moins 1 projet data forGood / jeveuxaider 
+- Prépa ta soutenance
+- Lancer ta veille (on parlera semaine pro) ==> feedly ;) 
+- DEMANDE de recommandation sur linkedin a Alexandre GAzagnes
+- Soigne à mort ton cv ton linkedin ton github 
+
+
 
 ## 2024-03-21 - Mentorship Session
 
