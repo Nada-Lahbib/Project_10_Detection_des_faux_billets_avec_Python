@@ -1,5 +1,14 @@
 # Changelog
 
+## 2024-03-27 - Mentorship Session
+
+### Updated
+- add comments main py
+- create src/
+- models/
+- run isort () and black => format code  ==> QA (static code QUALITY ANALYSIS)
+
+
 
 ## 2024-03-21 - Mentorship Session
 
