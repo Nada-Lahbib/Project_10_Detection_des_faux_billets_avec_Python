@@ -1,46 +1,43 @@
-"""
-MAIN FILE == > CONEVNTION RAJOUTER INFO DU FICHIER QUESTCE QUE CA FAIT 1 seule ligne
-"""
+"""Ce fichier main.py contient le point d'entrée principal de l'application, chargement d'un fichier CSV, traitement des données et enregistrement des prédictions."""
 
 import os
 import sys
 
+import joblib
 import pandas as pd
-import joblib  # Pour les anciennes versions de scikit-learn
 
 from src.functions import preprocess_and_predict
 
-# ==> PB IMPORTS
-# 1 Les builtin (existe deja dans python de base )
-# 2 les lib installées
-# 3 le packages / sous packages modules sous modules du code
-# ==> Utiliser isort
-# ==> UTILISER black
 
 
 def main(input_file):
-    """Add a docstring  ;)"""
+    """
+    Main function to process CSV file, make predictions, and save results.
 
-    # Charger le fichier CSV ==> EN ANGLAIS
+    Parameters:
+        input_file (str): The name of the CSV file to process.
+    """
+
+    # Define input and output folders
     input_folder = "data/source/"
     output_folder = "data/output/"
 
     df_test = pd.read_csv(os.path.join(input_folder, input_file), sep=",")
 
-    # Appliquer la fonction preprocess_and_predict CSV ==> EN ANGLAIS
+    # Application of the function preprocess_and_predict
     predictions = preprocess_and_predict(df_test)
 
-    # Créer la colonne des prédictions CSV ==> EN ANGLAIS
+    # Create the column of the prediction
     df_test["Predictions"] = predictions
 
-    # Enregistrer les prédictions dans un nouveau fichier CSV CSV ==> EN ANGLAIS
+    # Save the predictions to a new CSV file
     df_test.to_csv(os.path.join(output_folder, input_file), index=False)
     print("Predictions saved")
 
 
 if __name__ == "__main__":
 
-    # Vérifier si un fichier CSV est fourni en argument
+    # Check if a CSV file is provided as an argument
     if len(sys.argv) != 2:
         print("Usage: python main.py input_file.csv")
         sys.exit(1)

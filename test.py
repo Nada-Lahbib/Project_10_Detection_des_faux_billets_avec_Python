@@ -1,4 +1,4 @@
 import sys
-
-print("hello")
+print('hello')
+a=1
 print(sys.argv)
